@@ -34,7 +34,12 @@ function Main() {
                 </div>
                 <div className='list'>
                     <p className='new'>New:</p>
-                    <p> Prometheus / Hyperion / Odyssey</p>
+                    <a href='#Prometheus'>Prometheus</a>
+                    <p>/</p>
+                    <a href='#Hyperion'>Hyperion</a>
+                    <p>/</p>
+                    <a href='#Odyssey'>Odyssey</a>
+               
 
                 </div>
             </div>

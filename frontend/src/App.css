@@ -3,6 +3,11 @@ body {
   margin-left: 5%;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10px;
+}
+
 #navbar {
   width: 100%;
   display: flex;
@@ -31,6 +36,11 @@ body {
   justify-content: center;
 }
 
+#navbar :nth-child(3) a {
+  text-align: end;
+}
+
+
 #navbar div img {
   width: 20%;
   aspect-ratio: 1/1;
@@ -52,7 +62,7 @@ body {
 .head-logo {
   width: 20%;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   margin-top: 9%;
   gap: 10%;
 }
@@ -86,6 +96,7 @@ body {
   width: 30%;
   aspect-ratio: 1/1;
 }
+
 .head .head-logo .insta {
   width: 30%;
   display: flex;
@@ -102,47 +113,615 @@ body {
   width: 30%;
   aspect-ratio: 1/1;
 }
-.sub-head{
+
+.sub-head {
   width: 100%;
   display: flex;
   justify-content: space-between;
 
 }
-.sub-head .txt{
+
+.sub-head .txt {
   width: 50%;
 }
-.sub-head .list{
+
+.sub-head .list {
   width: 50%;
 }
-.sub-head .txt{
+
+.sub-head .txt {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.3em;
   font-weight: 500;
   word-spacing: .5em;
 }
-.sub-head .txt p{
+
+.sub-head .txt p {
   margin-top: 0;
   margin-bottom: 0
 }
+
 .sub-head .list {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.3em;
   font-weight: 500;
   word-spacing: 2.5em;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   margin-top: 20px;
   cursor: pointer;
 
 }
-.sub-head .list .new{
-  margin-right:2.5em ;
+
+.sub-head .list .new {
+
   color: lightgray;
   text-transform: uppercase;
   cursor: auto;
+
+  width: 20%;
 }
-.main-video{
+
+.sub-head .list p {
+  width: 5%;
+  text-align: end;
+}
+
+.sub-head .list a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  word-spacing: 2.5em;
+  margin-top: 15px;
+  width: 20%;
+  text-align: end;
+  text-decoration: none;
+  color: black;
+
+
+}
+
+.main-video {
   width: 100%;
   margin-top: 40PX;
 }
 
+.prom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+
+}
+
+.prom .left {
+  width: 20%;
+}
+
+.prom .center {
+  width: 50%;
+}
+
+.prom .right {
+  width: 20%;
+}
+
+.prom .left p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-top: 30px;
+
+}
+
+.prom .left .price {
+  margin-top: 660px;
+}
+
+.prom .left .txt {
+  font-weight: 200;
+  font-size: 1em;
+
+}
+
+.prom .center img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.prom .left hr {
+  color: lightgray;
+}
+
+.prom .center h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 6em;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+
+}
+
+.prom .center p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.prom .center hr {
+  margin-bottom: 50px;
+}
+
+.prom .right img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin-top: 250px;
+  margin-bottom: 30px;
+}
+
+.prom .right .txt {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: .5em;
+
+}
+
+.prom .right hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.prom .right button {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+  cursor: pointer;
+}
+
+.prom .right button:hover {
+  background: black;
+  color: white;
+  transition: 1s;
+}
+
+
+
+
+.hyp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+
+}
+
+.hyp .left {
+  width: 20%;
+}
+
+.hyp .center {
+  width: 50%;
+}
+
+.hyp .right {
+  width: 20%;
+}
+
+.hyp .left p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-top: 30px;
+
+}
+
+.hyp .left .price {
+  margin-top: 660px;
+}
+
+.hyp .left .txt {
+  font-weight: 200;
+  font-size: 1em;
+
+}
+
+.hyp .center img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.hyp .left hr {
+  color: lightgray;
+}
+
+.hyp .center h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 6em;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+
+}
+
+.hyp .center p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hyp .center hr {
+  margin-bottom: 50px;
+}
+
+.hyp .right img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin-top: 250px;
+  margin-bottom: 30px;
+}
+
+.hyp .right .txt {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: .5em;
+
+}
+
+.hyp .right hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hyp .right button {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+  cursor: pointer;
+}
+
+.hyp .right button:hover {
+  background: black;
+  color: white;
+  transition: 1s;
+}
+
+
+
+
+.ody {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-bottom: 100px;
+
+}
+
+.ody .left {
+  width: 20%;
+}
+
+.ody .center {
+  width: 50%;
+}
+
+.ody .right {
+  width: 20%;
+}
+
+.ody .left p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-top: 30px;
+
+}
+
+.ody .left .price {
+  margin-top: 660px;
+}
+
+.ody .left .txt {
+  font-weight: 200;
+  font-size: 1em;
+
+}
+
+.ody .center img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.ody .left hr {
+  color: lightgray;
+}
+
+.ody .center h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 6em;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+
+}
+
+.ody .center p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.ody .center hr {
+  margin-bottom: 50px;
+}
+
+.ody .right img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin-top: 250px;
+  margin-bottom: 30px;
+}
+
+.ody .right .txt {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: .5em;
+
+}
+
+.ody .right hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ody .right button {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+  cursor: pointer;
+}
+
+.ody .right button:hover {
+  background: black;
+  color: white;
+  transition: 1s;
+}
+
+
+
+
+.footer {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  border-top: 1px solid lightgray;
+  justify-content: space-between;
+}
+
+.footer .left {
+  width: 30%;
+}
+
+.footer .right {
+  width: 30%;
+}
+
+.footer .mid {
+  width: 30%;
+}
+
+.footer .left h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 50px;
+
+}
+
+.footer .left a {
+  width: 100%;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  text-decoration: none;
+  color: gray;
+  line-height: 2em;
+
+}
+
+.footer .left a:hover {
+  color: black;
+  transition: 1s;
+
+}
+
+.footer .mid iframe {
+  width: 100%;
+  height: 340px;
+}
+
+.footer .right input {
+  width: calc(100% - 21px);
+  padding: 0;
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+}
+
+.footer .right button {
+  width: 50%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 50%;
+  border: 1px solid rgb(38, 192, 115);
+  background: rgb(38, 192, 115);
+  color: white;
+
+}
+
+.footer .right button:hover {
+  background: black;
+  color: white;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+.footer .right h1 {
+  display: block;
+  font-size: 5em;
+  text-transform: uppercase;
+  margin: 0;
+
+  margin-bottom: 50px;
+
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+
+}
+
+.contact .left {
+  width: 45%;
+}
+
+.contact .right {
+  width: 45%;
+}
+
+.contact .right iframe {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.contact .left .head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50PX;
+
+}
+
+.contact .left .head img {
+  width: 20%;
+  aspect-ratio: 1/1;
+}
+
+.contact .left .head h1 {
+  width: 80%;
+  display: block;
+  font-size: 5em;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 10px;
+
+
+}
+
+.contact .left input {
+  width: calc(100% - 21px);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.contact .left form :nth-child(3) {
+  padding-bottom: 100px;
+}
+
+.contact .left button {
+  width: 30%;
+  padding: 20px;
+  border: 0;
+  background: rgb(38, 192, 115);
+  color: white;
+  text-transform: uppercase;
+}
+
+.contact .left button:hover {
+  background-color: black;
+  transition: 1s;
+}
+
+.contact .left .social {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-top: 50px;
+  display: none;
+
+}
+
+.contact .left .social button {
+  width: calc(50% - 10px);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid black;
+
+}
+
+.contact .left .social button:hover {
+  background: rgb(38, 192, 115);
+  transition: 1.5s;
+}
+
+.contact .left .social button img {
+  width: 10%;
+  aspect-ratio: 1/1;
+}
+
+.about {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+
+}
+
+.about iframe {
+  width: 100%;
+  height: 540px;
+}
+
+.about h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  margin: 0;
+
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.about p{
+  font-size: 1.3em;
+  word-spacing: .7em;
+  line-height: 2em;
+  text-align: justify;
+}
