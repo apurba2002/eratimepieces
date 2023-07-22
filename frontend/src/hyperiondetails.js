@@ -1,29 +1,27 @@
 import './App.css';
-function Prometheus_details() {
+function Hyperion_details() {
     return (
         <>
-            <div className="prod" >
+            <div className="hypd" >
                 <h1>
-                    The ERA Prometheus
+                    The ERA Hyperion
                 </h1>
-                <iframe src="https://www.youtube.com/embed/0ubBkT1z5HA?clip=UgkxYl4v67GnL0rE0Irx6X4GJsi2ICphT4sv&amp;clipt=EJCvAhjwgwY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OJ-LQwQ1Cag?clip=Ugkxf3s6km53dBdr3AvWQObbuoD405KSF9pH&amp;clipt=EO_lDBjOuhA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> <p>
                     In 2018, we set out to create the world's first attainable Tourbillon timepiece. Watch the video above in full to see how this simply changes EVERYTHING
                 </p>
                 <div className="img-row-1">
-                    <img src="pd1.jpg" alt=""></img>
-                    <img src="pd2.jpg" alt=""></img>
+                    <img src="hd1.jpg" alt=""></img>
+                    <img src="hd2.webp" alt=""></img>
 
                 </div>
                 <div className="img-row-2">
-                    <img src="pd3.jpg" alt=""></img>
-                    <img src="pd5.jpg" alt=""></img>
+                    <img src="hd3.webp" alt=""></img>
+                    <img src="hd4.jpg" alt=""></img>
 
                 </div>
                 <div className="img-row-3">
-                    <img src="p1.jpg" alt=""></img>
-                    <img src="pd7.jpg" alt=""></img>
-
+                    <img src="hd5.webp" alt=""></img>
+                    <img src="hd6.webp" alt=""></img>
                 </div>
                 <button>
                     Buy Now
@@ -241,15 +239,15 @@ function Prometheus_details() {
                     Buy Now
                 </button>
                 <div className="img-row-4">
-                    <img src="pd8.jpg" alt=""></img>
-                    <img src="pd9.jpg" alt=""></img>
-                    <img src="pd10.jpg" alt=""></img>
+                    <img src="hd7.webp" alt=""></img>
+                    <img src="hd8.jpg" alt=""></img>
+                    <img src="hd9.webp" alt=""></img>
 
                 </div>
                 <div className="img-row-5">
-                    <img src="pd11.jpg" alt=""></img>
-                    <img src="pd12.jpg" alt=""></img>
-                    <img src="pd13.jpg" alt=""></img>
+                    <img src="hd10.webp" alt=""></img>
+                    <img src="hd11.webp" alt=""></img>
+                    <img src="hd12.webp" alt=""></img>
 
                 </div>
                 <button>
@@ -287,7 +285,7 @@ function Prometheus_details() {
                     <button>
                         Buy Now
                     </button>
-                    <img src="pdlast.jpg" alt="" className="last-img"></img>
+                    <img src="hdlast.webp" alt="" className="last-img"></img>
                 </div>
 
 
@@ -295,4 +293,4 @@ function Prometheus_details() {
         </>
     )
 }
-export default Prometheus_details;
+export default Hyperion_details;

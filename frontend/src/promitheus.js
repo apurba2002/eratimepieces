@@ -1,3 +1,4 @@
+import { showprometheusdetails } from './App';
 import './App.css';
 function Prometheus(){
     return(
@@ -24,7 +25,7 @@ function Prometheus(){
                     <p className='txt'>decorated with Cotes de Geneve </p>
                     <p className='txt'>Better known as Geneva waves</p>
                     <hr></hr>
-                    <button onClick={()=>{document.getElementById('home').style.display="none"}}>Details</button>
+                    <button onClick={showprometheusdetails}>Details</button>
 
 
 

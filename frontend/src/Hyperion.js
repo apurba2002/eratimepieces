@@ -1,3 +1,4 @@
+import { showHyperiondetails } from './App';
 import './App.css';
 function Hyperion(){
     return(
@@ -24,7 +25,7 @@ function Hyperion(){
                     <p className='txt'>decorated with Cotes de Geneve </p>
                     <p className='txt'>Better known as Geneva waves</p>
                     <hr></hr>
-                    <button>Details</button>
+                    <button onClick={showHyperiondetails}>Details</button>
 
 
 
