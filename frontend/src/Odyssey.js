@@ -1,3 +1,4 @@
+import { showOdysseydetails } from './App';
 import './App.css';
 function Odyssey(){
     return(
@@ -24,7 +25,7 @@ function Odyssey(){
                     <p className='txt'>decorated with Cotes de Geneve </p>
                     <p className='txt'>Better known as Geneva waves</p>
                     <hr></hr>
-                    <button>Details</button>
+                    <button onClick={showOdysseydetails}>Details</button>
 
 
 
