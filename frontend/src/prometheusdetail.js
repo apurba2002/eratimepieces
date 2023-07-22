@@ -1,4 +1,4 @@
-import './App.css';
+
 function Prometheus_details() {
     return (
         <>

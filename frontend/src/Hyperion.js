@@ -1,5 +1,5 @@
 import { showHyperiondetails } from './App';
-import './App.css';
+
 function Hyperion(){
     return(
         <>

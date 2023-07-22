@@ -1,4 +1,6 @@
-import './App.css';
+
+
+
 function Main() {
     return (
         <>
@@ -44,7 +46,7 @@ function Main() {
                 </div>
             </div>
             <div className='main-video'>
-            <iframe width="100%" height="1080" src="https://www.youtube.com/embed/wVuFJED0Fxc" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"  allowFullScreen></iframe>
+            <iframe width="100%"  src="https://www.youtube.com/embed/wVuFJED0Fxc" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"  allowFullScreen></iframe>
 
             </div>
         </>

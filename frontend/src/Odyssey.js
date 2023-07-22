@@ -1,5 +1,5 @@
 import { showOdysseydetails } from './App';
-import './App.css';
+
 function Odyssey(){
     return(
         <>

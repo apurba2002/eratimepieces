@@ -1,5 +1,5 @@
 import { showprometheusdetails } from './App';
-import './App.css';
+
 function Prometheus(){
     return(
         <>

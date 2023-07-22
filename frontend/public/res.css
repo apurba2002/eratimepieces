@@ -1,0 +1,381 @@
+@media (max-width:768px) {
+    .head {
+        width: 100%;
+        display: block;
+        word-spacing: 2em;
+
+    }
+
+    .head-heading {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .head-logo {
+        display: none;
+    }
+
+    .head h1 {
+
+        display: block;
+        font-size: 3.4em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+
+
+    }
+
+    .head span {
+        margin-top: 30px;
+        font-size: 1em;
+        display: none;
+    }
+
+    .sub-head {
+        width: 100%;
+        display: block
+    }
+
+    .sub-head .list {
+        width: 100%;
+    }
+
+    .sub-head .txt {
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        word-spacing: .5em;
+    }
+
+    .sub-head .txt p {
+        margin-top: 0;
+        margin-bottom: 0;
+
+
+    }
+
+    .sub-head .list {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        word-spacing: 2.5em;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        cursor: pointer;
+
+    }
+
+    .sub-head .list .new {
+
+        color: lightgray;
+        text-transform: uppercase;
+        cursor: auto;
+        display: none;
+        width: 20%;
+    }
+
+    .sub-head .list p {
+        width: 20%;
+        text-align: center;
+    }
+
+    .sub-head .list a {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        word-spacing: 2.5em;
+        margin-top: 15px;
+        width: 20%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+
+
+    }
+
+    .main-video iframe {
+        width: 100%;
+        margin-top: 40PX;
+        height: 540px;
+    }
+
+    .prom {
+        width: 100%;
+        display: block;
+        margin-top: 100px;
+
+    }
+
+    .prom .left {
+        width: 100%;
+        position: relative;
+        top: 700px;
+    }
+
+    .prom .center {
+        width: 100%;
+        position: relative;
+        top: -220px;
+    }
+
+    .prom .right {
+        width: 100%;
+    }
+
+    .prom .left p {
+        display: none;
+    }
+
+    .prom .left .price {
+        margin-top: 0px;
+        display: block;
+    }
+
+    .prom .left .txt {
+        font-weight: 200;
+        font-size: 1em;
+        display: block;
+
+    }
+
+    .prom .center h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3.4em;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-transform: uppercase;
+
+    }
+
+    .prom .right img {
+        display: none;
+    }
+
+    .prom .right .txt {
+        display: none;
+    }
+
+
+
+    .hyp {
+        width: 100%;
+        display: block;
+        margin-top: 100px;
+
+    }
+
+    .hyp .left {
+        width: 100%;
+        position: relative;
+        top: 700px;
+    }
+
+    .hyp .center {
+        width: 100%;
+        position: relative;
+        top: -220px;
+    }
+
+    .hyp .right {
+        width: 100%;
+    }
+
+    .hyp .left p {
+        display: none;
+    }
+
+    .hyp .left .price {
+        margin-top: 0px;
+        display: block;
+    }
+
+    .hyp .left .txt {
+        font-weight: 200;
+        font-size: 1em;
+        display: block;
+
+    }
+
+    .hyp .center h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3.4em;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-transform: uppercase;
+
+    }
+
+    .hyp .right img {
+        display: none;
+    }
+
+    .hyp .right .txt {
+        display: none;
+    }
+
+
+
+
+    .ody {
+        width: 100%;
+        display: block;
+        margin-top: 100px;
+
+    }
+
+    .ody .left {
+        width: 100%;
+        position: relative;
+        top: 700px;
+    }
+
+    .ody .center {
+        width: 100%;
+        position: relative;
+        top: -220px;
+    }
+
+    .ody .right {
+        width: 100%;
+    }
+
+    .ody .left p {
+        display: none;
+    }
+
+    .ody .left .price {
+        margin-top: 0px;
+        display: block;
+    }
+
+    .ody .left .txt {
+        font-weight: 200;
+        font-size: 1em;
+        display: block;
+
+    }
+
+    .ody .center h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3.4em;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-transform: uppercase;
+
+    }
+
+    .ody .right img {
+        display: none;
+    }
+
+    .ody .right .txt {
+        display: none;
+    }
+
+    .about {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 100px;
+
+
+    }
+
+    .about h1 {
+        font-size: 3.4em;
+        text-transform: uppercase;
+        margin: 0;
+
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .about p {
+        font-size: 1em;
+        word-spacing: .5em;
+        line-height: 1.5em;
+        text-align: justify;
+    }
+
+    .contact {
+        width: 100%;
+        display: block;
+        padding-top: 0px;
+        padding-bottom: 100px;
+
+
+    }
+
+    .contact .left {
+        width: 100%;
+    }
+
+    .contact .right {
+        width: 45%;
+        display: none;
+    }
+
+    .contact .left .head h1 {
+        width: 70%;
+        display: block;
+        font-size: 3.4em;
+        text-transform: uppercase;
+        margin: 0;
+        margin-top: 10px;
+
+
+    }
+
+    .contact .left .head img {
+        width: 30%;
+        aspect-ratio: 1/1;
+    }
+
+
+
+
+    .footer {
+        width: 100%;
+        display: block;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        margin-top: 0px;
+        border-top: 1px solid lightgray;
+        justify-content: space-between;
+    }
+
+    .footer .left {
+        width: 100%;
+    }
+
+    .footer .right {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer .mid {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer .right h1 {
+        display: block;
+        font-size: 3.4em;
+        text-transform: uppercase;
+        margin: 0;
+
+        margin-bottom: 50px;
+
+    }
+
+#navbar{
+    display: none;
+}
+
+
+}

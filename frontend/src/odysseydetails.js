@@ -1,4 +1,4 @@
-import './App.css';
+
 function Odyssey_details() {
     return (
         <>

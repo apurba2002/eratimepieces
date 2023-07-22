@@ -1,4 +1,4 @@
-import './App.css';
+
 function Hyperion_details() {
     return (
         <>
