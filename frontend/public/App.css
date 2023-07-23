@@ -1651,3 +1651,10 @@ html {
   aspect-ratio: 1/1;
   margin-left: 25%;
 }
+.nav-res{
+  display: none;
+}
+.navlink{
+ 
+  display: none;
+}
