@@ -1,4 +1,125 @@
-@media (max-width:768px) {
+@media (max-width:1440px) {
+    #navbar div a {
+        font-size: 1em;
+    }
+
+    .head h1 {
+        font-size: 4em;
+    }
+
+    .head span {
+        font-size: 1em;
+        margin-top: 9%;
+    }
+
+    .head-logo {
+        margin-top: 50px;
+    }
+
+    .head .head-logo .facebook {
+        height: 65px;
+    }
+
+    .head .head-logo .insta {
+        height: 65px;
+    }
+
+    .sub-head .txt {
+        font-size: .9em
+    }
+
+    .sub-head .list {
+        margin-top: 0px;
+        font-size: .9em;
+    }
+
+    .sub-head .list a {
+        font-size: .9em;
+    }
+
+
+    .hyp .center h1 {
+        font-size: 4em;
+    }
+
+    .hyp .left p {
+        margin-top: 10px;
+    }
+
+    .hyp .left .price {
+        margin-top: 420px;
+    }
+
+    .hyp .right img {
+        margin-top: 170px;
+    }
+
+    .hyp .right .txt {
+        font-size: .8em;
+    }
+
+
+
+    .ody .center h1 {
+        font-size: 4em;
+    }
+
+    .ody .left p {
+        margin-top: 10px;
+    }
+
+    .ody .left .price {
+        margin-top: 420px;
+    }
+
+    .ody .right img {
+        margin-top: 170px;
+    }
+
+    .ody .right .txt {
+        font-size: .8em;
+    }
+    .prom .center h1 {
+        font-size: 4em;
+    }
+
+    .prom .left p {
+        margin-top: 10px;
+    }
+
+    .prom .left .price {
+        margin-top: 420px;
+    }
+
+    .prom .right img {
+        margin-top: 170px;
+    }
+
+    .prom .right .txt {
+        font-size: .8em;
+    }
+    .about h1 {
+        font-size: 4em;
+    }
+    .contact .left .head h1{
+        font-size: 2.5em;
+        margin-top: 20px;
+    }
+    .footer .right h1{
+        font-size: 2.5em;
+    }
+    .hypd .warenty .right button{
+        font-size: 3em;
+    }
+    .prod .warenty .right button{
+        font-size: 3em;
+    }
+    .odyd .warenty .right button{
+        font-size: 3em;
+    }
+}
+
+@media (max-width:425px) {
     .head {
         width: 100%;
         display: block;
@@ -112,7 +233,7 @@
     .prom .left {
         width: 100%;
         position: relative;
-        top: 700px;
+        top: 990px;
     }
 
     .prom .center {
@@ -165,14 +286,18 @@
         width: 100%;
         display: block;
         margin-top: 100px;
+        position: relative;
+   
 
     }
 
     .hyp .left {
         width: 100%;
         position: relative;
-        top: 700px;
+        top: 990px;
     }
+
+
 
     .hyp .center {
         width: 100%;
@@ -225,13 +350,15 @@
         width: 100%;
         display: block;
         margin-top: 100px;
+        position: relative;
+       
 
     }
 
     .ody .left {
         width: 100%;
         position: relative;
-        top: 700px;
+        top: 990px;
     }
 
     .ody .center {
@@ -282,6 +409,8 @@
         width: 100%;
         padding-top: 0px;
         padding-bottom: 100px;
+        position: relative;
+   
 
 
     }
@@ -307,6 +436,8 @@
         display: block;
         padding-top: 0px;
         padding-bottom: 100px;
+        position: relative;
+      
 
 
     }
@@ -327,6 +458,7 @@
         text-transform: uppercase;
         margin: 0;
         margin-top: 10px;
+        font-size: 2.5em;
 
 
     }
@@ -347,6 +479,8 @@
         margin-top: 0px;
         border-top: 1px solid lightgray;
         justify-content: space-between;
+        position: relative;
+    
     }
 
     .footer .left {
@@ -1250,7 +1384,7 @@
 
     .nav-res p {
         width: calc(80% - 10px);
- 
+
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin-top: 7px;
         text-align: end;
@@ -1276,23 +1410,25 @@
         text-decoration: none;
         color: black;
     }
-    #close{
+
+    #close {
         display: none;
     }
 
     .show {
         display: block;
-        
+
 
     }
 
     .showani {
         left: 0%;
         transition: left 1s;
-        
+
     }
-    .hideani{
-         left: -200%;
+
+    .hideani {
+        left: -200%;
         transition: left 1s;
     }
 
@@ -1306,6 +1442,7 @@
             left: 0%;
         }
     }
+
     @keyframes hidenav {
         form {
             left: 0%;
@@ -1317,4 +1454,18 @@
         }
     }
 
+}
+
+@media (max-width:425px) {
+    .ody .left {
+        top: 700px;
+    }
+
+    .hyp .left {
+        top: 700px;
+    }
+
+    .prom .left {
+        top: 700px;
+    }
 }
