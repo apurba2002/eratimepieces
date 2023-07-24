@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eratimepieces%20/static/css/main.31d6cfe0.css",
+    "main.js": "/eratimepieces%20/static/js/main.345103e8.js",
+    "static/js/787.cda612ba.chunk.js": "/eratimepieces%20/static/js/787.cda612ba.chunk.js",
+    "static/media/logo.svg": "/eratimepieces%20/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/eratimepieces%20/index.html",
+    "main.345103e8.js.map": "/eratimepieces%20/static/js/main.345103e8.js.map",
+    "787.cda612ba.chunk.js.map": "/eratimepieces%20/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.345103e8.js"
+  ]
+}
