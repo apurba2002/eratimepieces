@@ -119,6 +119,194 @@
     }
 }
 
+@media (max-width:768px){
+    #navbar div a{
+        font-size: .7em;
+    }
+    .head h1{
+        font-size: 3.4em;
+    }
+    .sub-head .list{
+        margin-top: 30px;
+    }
+    .prom .center h1{
+        font-size: 3.4em;
+    }
+    .prom .right .txt{
+        font-size: .6em;
+    }
+    .prom .left .price{
+        margin-top: 190px;
+    }
+    .hyp .center h1{
+        font-size: 3.4em;
+    }
+    .hyp .right .txt{
+        font-size: .6em;
+    }
+    .hyp .left .price{
+        margin-top: 190px;
+    }
+    .hyp .center h1{
+        font-size: 3.4em;
+    }
+    .hyp .right .txt{
+        font-size: .6em;
+    }
+    .hyp .left .price{
+        margin-top: 190px;
+    }
+    .ody .center h1{
+        font-size: 3.4em;
+    }
+    .ody .right .txt{
+        font-size: .6em;
+    }
+    .ody .left .price{
+        margin-top: 190px;
+    }
+    .ody .center h1{
+        font-size: 3.4em;
+    }
+    .ody .right .txt{
+        font-size: .6em;
+    }
+    .ody .left .price{
+        margin-top: 190px;
+    }
+    .contact .right{
+        display: none;
+    }
+    .contact{
+        display: block;
+    }
+    .contact .left{
+        width: 100%;
+    }
+    .contact .left .head h1{
+        margin-top: 40px;
+    }
+    .footer .left a{
+        font-size: .7em;
+    }
+    .footer .right h1{
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    .odyd h1{
+        font-size: 3.4em
+    }
+    .odyd .details .left h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .odyd .details .mid h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .odyd .details .right h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .odyd .details .left hr{
+        margin-bottom: 30px;
+    }
+    .odyd .details .mid hr{
+        margin-bottom: 30px;
+    }
+    .odyd .details .right hr{
+        margin-bottom: 30px;
+    }
+    .odyd .warenty h1{
+        font-size: 3.4em;
+    }
+    .odyd .warenty .right button{
+        font-size: 2em;
+    }
+    .odyd .warenty .left button{
+        font-size: 2em;
+    }
+
+
+
+    
+    .prod h1{
+        font-size: 3.4em
+    }
+    .prod .details .left h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .prod .details .mid h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .prod .details .right h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .prod .details .left hr{
+        margin-bottom: 30px;
+    }
+    .prod .details .mid hr{
+        margin-bottom: 30px;
+    }
+    .prod .details .right hr{
+        margin-bottom: 30px;
+    }
+    .prod .warenty h1{
+        font-size: 3.4em;
+    }
+    .prod .warenty .right button{
+        font-size: 2em;
+    }
+    .prod .warenty .left button{
+        font-size: 2em;
+    }
+
+
+
+    .hypd h1{
+        font-size: 3.4em
+    }
+    .hypd .details .left h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .hypd .details .mid h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .hypd .details .right h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .hypd .details .left hr{
+        margin-bottom: 30px;
+    }
+    .hypd .details .mid hr{
+        margin-bottom: 30px;
+    }
+    .hypd .details .right hr{
+        margin-bottom: 30px;
+    }
+    .hypd .warenty h1{
+        font-size: 3.4em;
+    }
+    .hypd .warenty .right button{
+        font-size: 2em;
+    }
+    .hypd .warenty .left button{
+        font-size: 2em;
+    }
+    
+}
+
 @media (max-width:425px) {
     .head {
         width: 100%;

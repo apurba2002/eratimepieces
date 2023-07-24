@@ -11,12 +11,12 @@ function Navres() {
 
             </div>
             <div className="navlink">
-                <a href="index.html">Timepieces</a>
-                <a href="#">Accessories</a>
-                <a href="#">Reviews</a>
-                <a href="#about">About Us</a>
-                <a href="#">Support</a>
-                <a href="#contact">Contact</a>
+                <a href="index.html" onClick={hidenav}>Timepieces</a>
+                <a href="#" onClick={hidenav}>Accessories</a>
+                <a href="#" onClick={hidenav}>Reviews</a>
+                <a href="#about" onClick={hidenav}>About Us</a>
+                <a href="#" onClick={hidenav}>Support</a>
+                <a href="#contact" onClick={hidenav}>Contact</a>
             </div>
         </>
     )
